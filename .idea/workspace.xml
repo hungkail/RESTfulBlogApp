@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be06e3cf-eef3-4e71-bd70-16b03998bc0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-sanitizer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-sanitizer/lib/express-sanitizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express-sanitizer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/method-override/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/method-override/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/edit.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/new.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/show.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RESTfulBlogApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RESTfulBlogApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582915217173</updated>
-      <workItem from="1582915218259" duration="17435000" />
+      <workItem from="1582915218259" duration="18325000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,7 @@ const bodyParser       = require("body-parser"),
       express          = require("express"),
       app              = express();
 const url = 'mongodb://127.0.0.1:27017/restful_blog_app';
-const port = 4000;
+const port = process.env.PORT || 4000;
 // APP CONFIG
 mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true});
 // Make Mongoose use `findOneAndUpdate()`. Note that this option is `true`
@@ -120,5 +120,6 @@ app.delete("/blogs/:id", function (req, res) {
 
 
 app.listen(port, function () {
-    console.log("SERVER IS RUNNING!");
+    var port = server.address().port;
+    console.log("App now running on port", port);
 });

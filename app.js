@@ -120,6 +120,6 @@ app.delete("/blogs/:id", function (req, res) {
 
 
 app.listen(port, function () {
-    var port = server.address().port;
-    console.log("App now running on port", port);
+    // var port = server.address().port;
+    // console.log("App now running on port", port);
 });

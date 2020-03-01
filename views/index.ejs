@@ -10,10 +10,7 @@
                 <div class="content">
                     <a class="header" href="/blogs/<%= blog._id %>"><%=blog.title%></a>
                     <div class="meta">
-                        <% var theDate = new Date(Date.parse(blog.created));
-                           theDate = new Date(theDate.toUTCString());
-                        %>
-                        <span><%=theDate.toLocaleDateString()%></span>
+                        <span><%=theDate.toDateString()%></span>
                     </div>
                     <div class="description">
                         <p><%-blog.body ? blog.body.substring(0, 100):""%>...</p>

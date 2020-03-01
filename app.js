@@ -27,12 +27,6 @@ const blogSchema = new mongoose.Schema({
 
 const Blog = mongoose.model("Blog", blogSchema);
 
-// Blog.create({
-//     title: "Test Blog",
-//     image: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=660&q=80",
-//     body: "HELLO THIS IS A BLOG POST!"
-// });
-
 // RESTFUL ROUTES
 
 app.get("/", function (req, res) {
@@ -111,12 +105,6 @@ app.delete("/blogs/:id", function (req, res) {
         res.redirect("/blogs");
     })
 });
-
-// title
-// image
-// body
-// created
-
 
 
 var server = app.listen(port, function () {

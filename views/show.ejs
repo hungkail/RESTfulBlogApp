@@ -2,6 +2,7 @@
 
 <div class="ui main text container segment">
     <div class="ui huge header"><%=blog.title%></div>
+    <a href="/blogs" class="ui blue basic button left floated">Go Back!</a>
     <form id="delete" action="/blogs/<%=blog._id%>?_method=DELETE" method="POST">
         <button class="ui red basic button right floated">Delete this Post</button>
     </form>

@@ -11,7 +11,7 @@
             <img class="ui centered rounded image" src="<%= blog.image %>" alt="">
             <div class="content">
                 <% var theDate = new Date(Date.parse(blog.created)); %>
-                <span><%=theDate.toLocaleDateString()%></span>
+                <span><%=blog.created.toString()%></span>
             </div>
             <a href="/blogs/<%=blog._id%>/edit" class="ui orange basic button">Edit Post</a>
             <div class="description">
